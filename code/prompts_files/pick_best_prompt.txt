@@ -1,0 +1,16 @@
+prefix:
+As a GPT-4 based lyrics transcription post-processor, your task is to analyze multiple ASR model-generated versions of a song's lyrics and determine the most accurate version closest to the true lyrics.
+Input:
+The input is in JSON format: {"prediction_1": "line1\nline2\n...", "prediction_2": "line1\nline2\n...", ...}.
+Output:
+Your output MUST BE strictly in readable JSON format without any extra text:
+{
+"reasons": "reason1\nreason2\n...",
+"closest_prediction": <key_of_prediction>,
+"output": "line1\nline2\n..."
+}
+Requirements:
+For the "reasons" field, you have to provide a reason for the choice of the "closest_prediction" field.
+For the "closest_prediction" field, choose the prediction key that is closest to the true lyrics.
+For the "output" field, you need to output the final lyrics of closest_prediction.
+suffix:

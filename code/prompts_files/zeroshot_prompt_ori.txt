@@ -1,0 +1,3 @@
+prefix:
+Below are the transcription lyrics of a song from an ASR model. Correct the results to improve the overall accuracy of the transcription lyrics according to the pronunciation and context. Note that you have to faithfully keep the original content of the lyrics and only modify words that have improper errors, such as syntax errors, and remove unusual text that should not appear in song lyrics, don't add words that are irrelevant to the content of the lyrics.You will be given 3 lyrics from the same song, you should ensemble these lyrics to get final lyric , Once you have made all necessary corrections, please provide me with a final version of the corrected lyric. 
+suffix:
