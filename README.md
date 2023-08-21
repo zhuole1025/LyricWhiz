@@ -1,6 +1,6 @@
 # LyricWhiz
 
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2306.17103)
+[ISMIR 2023] [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2306.17103)
 
 Official code for the paper: LyricWhiz: Robust Multilingual Zero-shot Lyrics Transcription by Whispering to ChatGPT. 
 Welcome to visit our [m-a-p community](https://https://m-a-p.ai/) and [MARBLE benchmark](https://marble-bm.sheffield.ac.uk/) for more details.
