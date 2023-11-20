@@ -27,6 +27,19 @@ sh code/run.sh
 
 To post-process the Whisper output using ChatGPT, run the corresponding Python script in the `./code` folder:
 
+## Update: MulJam v2.0
+
+MulJam v2.0 differs in two aspects:
+1. We have increased the test set size and collected refined human lyrics annotations, leading to adjustments in the data split.
+2. We have excluded the songs from the training and validation sets that were present in [Jamendo](https://github.com/f90/jamendolyrics).
+This exclusion enables a valid comparison with other lyrics transcription systems on the Jamendo dataset.
+
+For a detailed description of MulJam v2.0, please refer to appendix E of the [MARBLE benchmark paper](https://openreview.net/attachment?id=2s7ZZUhEGS&name=pdf).
+
+## Getting the Audio
+
+The script for downloading and preprocessing audio will be available in the [MARBLE benchmark repository](https://github.com/a43992899/MARBLE-Benchmark).
+
 ## Citation
 
 If you find this repository useful, please cite our paper:
