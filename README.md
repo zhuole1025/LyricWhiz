@@ -40,14 +40,27 @@ For a detailed description of MulJam v2.0, please refer to appendix E of the [MA
 
 The script for downloading and preprocessing audio will be available in the [MARBLE benchmark repository](https://github.com/a43992899/MARBLE-Benchmark).
 
+## Acknowledgement
+
+We would like to give special thanks to the following researchers or musicians on the lyrics labelling: Léo Nebel in LIP6 at Sorbonne Université; Nick Magal in School of Music at Carnegie Mellon University; Carey Bunk, Yannis Vasilakis, Christopher Mitcheltree, Nelly Victoria Alexandra Garcia-Sihuay, Teresa Pelinski Ramos, Ilaria Manco, David Südholt, Jordan Shier, and Matthew Rice in Centre for Digital Music at Queen Mary University of London; Emilian Postolache in Sapienza University of Rome; as well as Wenqin Yu in the Chinese Music Institute at Peking University.
+
 ## Citation
 
-If you find this repository useful, please cite our paper:
+If you find this repository useful, please cite our paper and the MARBLE benchmark paper:
 ```
 @article{zhuo2023lyricwhiz,
   title={LyricWhiz: Robust Multilingual Zero-shot Lyrics Transcription by Whispering to ChatGPT},
   author={Zhuo, Le and Yuan, Ruibin and Pan, Jiahao and Ma, Yinghao and LI, Yizhi and Zhang, Ge and Liu, Si and Dannenberg, Roger and Fu, Jie and Lin, Chenghua and others},
   journal={arXiv preprint arXiv:2306.17103},
+  year={2023}
+}
+```
+  
+```
+@article{yuan2023marble,
+  title={MARBLE: Music Audio Representation Benchmark for Universal Evaluation},
+  author={Yuan, Ruibin and Ma, Yinghao and Li, Yizhi and Zhang, Ge and Chen, Xingran and Yin, Hanzhi and Zhuo, Le and Liu, Yiqi and Huang, Jiawen and Tian, Zeyue and others},
+  journal={arXiv preprint arXiv:2306.10548},
   year={2023}
 }
 ```
